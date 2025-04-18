@@ -10,6 +10,7 @@ A arquitetura de integração dos sistemas legado está baseado em uma arquitetu
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps.
 
 
+
 ![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472)
 
 
@@ -23,7 +24,7 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 
 
 ## Premissas 
-Migração do ambiente on-premises deve ser realizada de forma faseada garantindo que não teremos indisponiblidade de forma que o ambiente seja impactado assegurundo a eficiência e performance na comunicação dos sistemas.
+Migração do ambiente on-premises deve ser realizada de forma faseada garantindo que não teremos indisponiblidade sem impacto no ambienteassegurando a eficiência e performance na comunicação dos sistemas.
 
 Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
 
