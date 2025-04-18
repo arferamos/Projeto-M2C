@@ -103,6 +103,7 @@ Favor checar em Evidências.md
 ## Plano Orçamentário FinOps
 Favor checar em Plano FinOps.md clicando no link abaixo:
 
+
 https://github.com/arferamos/Projeto-M2C/blob/main/FinOps.md
 
 # Autor
