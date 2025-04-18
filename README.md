@@ -8,7 +8,18 @@ Futuramente, toda a parte de Storage também será movida para a Cloud.
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
 A arquitetura de integração dos sistemas legado está baseado em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps.
+
+
 ![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472)
+
+
+## Cenário As-Is:
+Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Service” e obsoleto devido a versões e contrato com fornecedores sem renovação "End-of-Suporte"
+
+
+## Arquitetura AS-IS
+
+
 
 
 ## Premissas 
@@ -16,18 +27,6 @@ Migração do ambiente on-premises deve ser realizada de forma faseada garantind
 
 Garantir a escalabilidade e alta disponibilidade "HA" do ambiente.
 
-
-
-
-
-## Risco e Restrições
-### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
-A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por 2 servidores cada uma delas em horário de baixo tráfego e em final de semana.
-
-Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity, Segurança, Integração e Arquitetura, todo o alinhamento necessário foi realizado.
-
-Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto em sua solução atual durante a Janela de Manutenção.
- 
 
 
 
@@ -41,6 +40,16 @@ A coluna "Orquestrações Internas" representam todo o fluxo executado pelos ser
 ![image](https://github.com/user-attachments/assets/1e261991-6ade-48a1-b06d-9fd9f1357f74)
 
 ![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
+
+
+
+## Risco e Restrições
+### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
+A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por 2 servidores cada uma delas em horário de baixo tráfego e em final de semana.
+
+Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity, Segurança, Integração e Arquitetura, todo o alinhamento necessário foi realizado.
+
+Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto em sua solução atual durante a Janela de Manutenção.
 
 
 
