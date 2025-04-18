@@ -49,6 +49,35 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 
 ![image](https://github.com/user-attachments/assets/033c6449-92f0-412f-b2e1-7b207dc398c3)
 
+# Proposta de Arquitetura para o cenário To-be
+Objetivo: Implantar a aplicação SaaS com subdomínios na AWS usando EKS (Elastic Kubernetes Service).
+
+Infraestrutura:
+Configuração da VPC com seus derivados e do cluster EKS.
+Uso do Cloud9 com kubectl e eksctl para gerenciamento.
+
+Containerização:
+Aplicação containerizada com Docker.
+Imagens enviadas para o Amazon ECR (Elastic Container Registry).
+
+Orquestração com Kubernetes:
+Criação de manifestos de deployment e service.
+Definição de pods, recursos e variáveis de ambiente.
+
+Gerenciamento de domínio e tráfego:
+Route 53 usado para zona hospedada e resolução de domínio.
+
+Application Load Balancer (ALB) configurado com ingress.
+
+Segurança:
+AWS Certificate Manager usado para provisionar certificados SSL.
+Terminação SSL feita no ALB para tráfego seguro.
+
+Resultado final:
+Aplicação altamente disponível, segura e escalável, acessível por domínio seguro.
+Utilizando metodologia DevOps com Kubernetes na AWS, Route53 para domínios, roteamento de tráfego, SSL e containerização.
+
+
 
 # Arquitetura To-be
 ![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/c432004a-9f44-4535-b5e0-735761b52ff0)
