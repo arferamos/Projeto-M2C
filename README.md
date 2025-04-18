@@ -2,12 +2,23 @@
 
 # Apresentação da Demanda
 O Projeto M2C vem do direcional executivo e tem por objetivo mover toda a aplicação do Datacenter on-premises para a Cloud com objetivo na descontinuidade dos Datacenter próprios.
-Futuramente, toda a parte de Storage também será movida para a Cloud, porém está em estudo essa possibilidade. 
+Futuramente, toda a parte de Storage também será movida para a Cloud.
 
 ## Macro Escopo
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
 A arquitetura de integração dos sistemas legado está baseado em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps.
+
+## Risco e Restrições
+### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
+A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por 2 servidores cada uma delas em horário de baixo tráfego e em final de semana.
+
+Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity, Segurança, Integração e Arquitetura, todo o alinhamento necessário foi realizado.
+
+Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto em sua solução atual durante a Janela de Manutenção.
+ 
+
+
 
 
 ## Volumetria:
