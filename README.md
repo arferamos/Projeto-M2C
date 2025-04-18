@@ -11,6 +11,13 @@ O objetivo dessa demanda é prover a atualização tecnológica do barramento de
 ![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472)
 
 
+## Premissas 
+Migração do ambiente on-premises deve ser realizada de forma faseada garantindo que não teremos indisponiblidade de forma que o ambiente seja impactado assegurundo a eficiência e performance na comunicação dos sistemas.
+
+Garantir a escalabilidade e alta disponibilidade "HA" do ambiente.
+
+
+
 
 
 ## Risco e Restrições
