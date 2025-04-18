@@ -19,9 +19,21 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 
 
 ## Arquitetura AS-IS
+![Cluster segregado-Segregado Projeto SAS Prod To-be_3Nodes](https://github.com/user-attachments/assets/e38c5f3f-33dd-434f-a708-29a2b31cd61a)
+
 
 
 ## Storage H.A com GFS sendo utilizado a solução Huawei, Dell ou Hitachi Vantara na qual tenho experiência nas 3 soluções:
+![image](https://github.com/user-attachments/assets/f2a9b5a2-3368-4814-95ed-a49228ca9f4d)
+
+Obs: Nas soluções para storage desses players, é possível tambem utilizar NAS para file server e Object Storage.
+
+## Desaster Recovery
+Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio de até 300km entre Datacenters On-premises.
+
+![image](https://github.com/user-attachments/assets/033c6449-92f0-412f-b2e1-7b207dc398c3)
+
+
 
 
 
