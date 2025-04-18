@@ -37,9 +37,7 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 
 
 ## Arquitetura AS-IS
-![Cluster segregado-Segregado Projeto SAS Prod To-be_3Nodes](https://github.com/user-attachments/assets/f6496ee7-2638-4126-813a-c8c7ec6fd47b)
-
-
+![Cluster segregado-Segregado Projeto SAS Prod To-be_3Nodes](https://github.com/user-attachments/assets/32aa705c-8fd0-4da1-b44a-967c124c8d95)
 
 
 ## Storage H.A com GFS sendo utilizado a solução Huawei, Dell ou Hitachi Vantara na qual tenho experiência nas 3 soluções:
