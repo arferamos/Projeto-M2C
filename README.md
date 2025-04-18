@@ -45,6 +45,12 @@ A coluna "Orquestrações Internas" representam todo o fluxo executado pelos ser
 ![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
 
 
+# Arquitetura To-be
+![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/c432004a-9f44-4535-b5e0-735761b52ff0)
+
+
+
+
 
 ## Risco e Restrições
 ### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
