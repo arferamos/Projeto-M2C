@@ -15,6 +15,10 @@ A coluna "Orquestrações Internas" representam todo o fluxo executado pelos ser
 
 ![image](https://github.com/user-attachments/assets/1e261991-6ade-48a1-b06d-9fd9f1357f74)
 
+![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
+
+
+
 
 
 
