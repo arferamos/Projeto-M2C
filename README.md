@@ -51,28 +51,17 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 ![image](https://github.com/user-attachments/assets/033c6449-92f0-412f-b2e1-7b207dc398c3)
 
 
-
-
-
-
-
-
-
-
 # Arquitetura To-be
 ![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/c432004a-9f44-4535-b5e0-735761b52ff0)
 
 
-
-
-
 ## Risco e Restrições
 ### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
-A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por 2 servidores cada uma delas em horário de baixo tráfego e em final de semana.
+A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por serviços que estão rodando nos servidores xpto e cada uma delas em horário de baixo tráfego e em final de semana.
 
 Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity, Segurança, Integração e Arquitetura, todo o alinhamento necessário foi realizado.
 
-Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto em sua solução atual durante a Janela de Manutenção.
+Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto durante a Janela de Manutenção.
 
 
 
