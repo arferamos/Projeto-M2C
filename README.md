@@ -14,9 +14,11 @@ O objetivo dessa demanda é prover a atualização tecnológica do barramento de
 ## Premissas 
 Migração do ambiente On-premises para a Cloud deve ser realizada de forma faseada sem impacto no ambiente assegurando a eficiência e performance na comunicação dos sistemas.
 
-Todo acesso no novo ambiente será realizado de forma segura e eficientes aos servidores e serviços utilizando protocolos SSH e HTTPS. 
+Todo acesso no novo ambiente será realizado de forma segura e eficiente aos servidores e serviços utilizando protocolos SSH e HTTPS. 
 
 Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
+
+Garantir a funcionalidade do DR
 
 
 ## Volumetria:
