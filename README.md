@@ -19,7 +19,8 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 
 
 ## Arquitetura AS-IS
-![Cluster segregado-Segregado Projeto SAS Prod To-be_3Nodes](https://github.com/user-attachments/assets/e38c5f3f-33dd-434f-a708-29a2b31cd61a)
+![Cluster segregado-Segregado Projeto SAS Prod To-be_3Nodes](https://github.com/user-attachments/assets/f6496ee7-2638-4126-813a-c8c7ec6fd47b)
+
 
 
 
