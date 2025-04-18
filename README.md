@@ -21,6 +21,10 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 ## Arquitetura AS-IS
 
 
+## Storage H.A com GFS sendo utilizado a solução Huawei, Dell ou Hitachi Vantara na qual tenho experiência nas 3 soluções:
+
+
+
 
 
 ## Premissas 
