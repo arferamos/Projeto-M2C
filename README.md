@@ -96,6 +96,8 @@ Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura
 ## Comandos utilizados para deploy do Projeto
 Favor checar em Comando utilizados.md
 
+https://github.com/arferamos/Projeto-M2C/blob/main/Comandos%20utilizados.md
+
 
 ## Evidências da Solução
 Favor checar em Evidências.md
