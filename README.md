@@ -18,7 +18,7 @@ Todo acesso no novo ambiente será realizado de forma segura e eficiente aos ser
 
 Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
 
-Garantir a funcionalidade do DR
+Garantir as funcionalidades do sistema pelo DR mantendo o percentual acordado de serviço up.
 
 
 ## Volumetria:
