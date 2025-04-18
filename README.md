@@ -24,7 +24,9 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 
 
 ## Premissas 
-Migração do ambiente on-premises deve ser realizada de forma faseada garantindo que não teremos indisponiblidade sem impacto no ambienteassegurando a eficiência e performance na comunicação dos sistemas.
+Migração do ambiente On-premises para a Cloud deve ser realizada de forma faseada sem impacto no ambiente assegurando a eficiência e performance na comunicação dos sistemas.
+
+Todo acesso no novo ambiente será realizado de forma segura e eficientes aos servidores e serviços utilizando protocolos SSH e HTTPS. 
 
 Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
 
