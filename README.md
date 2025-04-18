@@ -63,14 +63,14 @@ Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity,
 Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto durante a Janela de Manutenção.
 
 
-# Comandos utilizados para deploy do Projeto
+## Comandos utilizados para deploy do Projeto
 Favor checar em Comando utilizados.md
 
 
-# Evidências da Solução
+## Evidências da Solução
 Favor checar em Evidências.md
 
-# Plano Orçamentário FinOps
+## Plano Orçamentário FinOps
 Favor checar em Plano FinOps.md
 
 # Autor
