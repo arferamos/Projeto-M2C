@@ -25,7 +25,7 @@ Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Serv
 ## Premissas 
 Migração do ambiente on-premises deve ser realizada de forma faseada garantindo que não teremos indisponiblidade de forma que o ambiente seja impactado assegurundo a eficiência e performance na comunicação dos sistemas.
 
-Garantir a escalabilidade e alta disponibilidade "HA" do ambiente.
+Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
 
 
 
