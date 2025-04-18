@@ -53,24 +53,24 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 ## Objetivo: 
 Implantar a aplicação SaaS com subdomínios na AWS usando EKS (Elastic Kubernetes Service).
 
-## Infraestrutura:
+Infraestrutura:
 Configuração da VPC com seus derivados e do cluster EKS.
 Uso do Cloud9 com kubectl e eksctl para gerenciamento.
 
-## Containerização:
+Containerização:
 Aplicação containerizada com Docker.
 Imagens enviadas para o Amazon ECR (Elastic Container Registry).
 
-## Orquestração com Kubernetes:
+Orquestração com Kubernetes:
 Criação de manifestos de deployment e service.
 Definição de pods, recursos e variáveis de ambiente.
 
-## Gerenciamento de domínio e tráfego:
+Gerenciamento de domínio e tráfego:
 Route 53 usado para zona hospedada e resolução de domínio.
 
 Application Load Balancer (ALB) configurado com ingress.
 
-## Segurança:
+Segurança:
 AWS Certificate Manager usado para provisionar certificados SSL.
 Terminação SSL feita no ALB para tráfego seguro.
 
