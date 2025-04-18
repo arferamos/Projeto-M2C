@@ -9,9 +9,25 @@ Atualmente o parque de servidores de nossos Datacenter on-premises estão em pro
 A arquitetura de integração dos sistemas legado está baseado em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps.
 
-
-
 ![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472)
+
+## Premissas 
+Migração do ambiente On-premises para a Cloud deve ser realizada de forma faseada sem impacto no ambiente assegurando a eficiência e performance na comunicação dos sistemas.
+
+Todo acesso no novo ambiente será realizado de forma segura e eficientes aos servidores e serviços utilizando protocolos SSH e HTTPS. 
+
+Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
+
+
+## Volumetria:
+A volumetria atual não sofrerá alterações, mas necessitará da criação de uma infraestrutura paralela para conviver com a infraestrutura atual, até que todos os requisitos funcionais tenham sido migrados, testados e homologados dentro do novo ambiente.
+
+Para quantificar a quantidade de transações que entram no Barramento de serviços, temos que considerar a coluna "Transações Entrada" na tabela. Ou seja, uma aplicação consumindo o serviço.
+A coluna "Orquestrações Internas" representam todo o fluxo executado pelos serviços consumindo as camadas internas do serviço xpto.
+
+![image](https://github.com/user-attachments/assets/1e261991-6ade-48a1-b06d-9fd9f1357f74)
+
+![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
 
 
 ## Cenário As-Is:
@@ -40,26 +56,7 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 
 
 
-## Premissas 
-Migração do ambiente On-premises para a Cloud deve ser realizada de forma faseada sem impacto no ambiente assegurando a eficiência e performance na comunicação dos sistemas.
 
-Todo acesso no novo ambiente será realizado de forma segura e eficientes aos servidores e serviços utilizando protocolos SSH e HTTPS. 
-
-Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
-
-
-
-
-
-## Volumetria:
-A volumetria atual não sofrerá alterações, mas necessitará da criação de uma infraestrutura paralela para conviver com a infraestrutura atual, até que todos os requisitos funcionais tenham sido migrados, testados e homologados dentro do novo ambiente.
-
-Para quantificar a quantidade de transações que entram no Barramento de serviços, temos que considerar a coluna "Transações Entrada" na tabela. Ou seja, uma aplicação consumindo o serviço.
-A coluna "Orquestrações Internas" representam todo o fluxo executado pelos serviços consumindo as camadas internas do serviço xpto.
-
-![image](https://github.com/user-attachments/assets/1e261991-6ade-48a1-b06d-9fd9f1357f74)
-
-![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
 
 
 # Arquitetura To-be
