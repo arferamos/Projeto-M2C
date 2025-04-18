@@ -102,6 +102,7 @@ Favor checar em Evidências.md
 
 ## Plano Orçamentário FinOps
 Favor checar em Plano FinOps.md
+https://github.com/arferamos/Projeto-M2C/blob/main/FinOps.md
 
 # Autor
 Arlindo Ferreira da Silva Ramos
