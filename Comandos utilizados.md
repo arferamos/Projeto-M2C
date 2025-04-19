@@ -93,7 +93,7 @@ NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
 aws-load-balancer-controller   2/2     2            2           84s
 
 
-Crie uma Role & Service Account para fornecer aos pods acesso às tabelas S3 e DynamoDB.
+### Crie uma Role & Service Account para fornecer aos pods acesso às tabelas S3 e DynamoDB.
 eksctl create iamserviceaccount \
   --cluster=humangov-cluster \
   --name=humangov-pod-execution-role \
@@ -103,23 +103,27 @@ eksctl create iamserviceaccount \
   --region us-east-1 \
   --approve
 ​
-Coloque a aplicação em container
+### Coloque a aplicação em container
 Mude para o diretório da aplicação.
 ​
-Crie um Repositório ECR
+### Crie um Repositório ECR
 Crie um novo repositório ECR público chamado humangov-app, build and push a imagem Docker para o repositório ECR criado 
+
 Recupere o token de autenticação e autentique o seu cliente Docker no seu registro. Use o AWS CLI:
+
 <get this command from View push commands in ECR>
 ​
 docker build -t humangov-app .
 ​
 Após a conclusão do build, adicione uma tag à sua imagem, para que você possa fazer o push da imagem para este repositório:
+  
 <get this command from View push commands in ECR>
 ​
 Execute o seguinte comando para fazer o push desta imagem para o novo repositório AWS que você criou:
+  
 <get this command from View push commands in ECR>
 ​
-Implemente a Aplicação para Cada Estado
+### Implemente a Aplicação para Cada Estado
 Crie o arquivo humangov-california.yaml no diretório human-gov-application/src . 
 Substitua o caminho da imagem do ECR e o nome do Bucket da AWS pelos nomes dos seus recursos, conforme mostrado em vermelho abaixo:
 apiVersion: apps/v1
