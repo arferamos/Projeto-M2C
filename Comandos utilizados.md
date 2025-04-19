@@ -74,7 +74,7 @@ eksctl utils associate-iam-oidc-provider --cluster humangov-cluster --approve
 ​
 Crie uma função IAM e uma conta de serviço Kubernetes com o nome aws-load-balancer-controller no namespace kube-system para o AWS Load Balancer Controller e adicione uma anotação à conta de serviço Kubernetes com o nome da IAM role.
 
-## Instale o AWS Load Balancer Controller usando o Helm V3 ou posterior, ou aplicando um manifesto Kubernetes
+### Instale o AWS Load Balancer Controller usando o Helm V3 ou posterior, ou aplicando um manifesto Kubernetes
 Adicione o repositório eks-charts
 
 helm repo add eks https://aws.github.io/eks-charts
