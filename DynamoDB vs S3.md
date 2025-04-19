@@ -10,7 +10,7 @@ R: O AWS DataSync é uma ferramenta ideal para transferência eficiente de arqui
 Pode ser agendado ou executado sob demanda e funciona com agente local instalado no datacenter e S3 como origem.
 
 
-Fluxo para transferência de dados:
+# Fluxo para transferência de dados:
 Exportar os dados do DynamoDB para o S3, com exportação nativa via console ou API com suporte ao formato Parquet. Depois disso, o DataSync leva esses dados do S3 até seu storage local.
 
 
