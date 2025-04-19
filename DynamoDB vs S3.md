@@ -11,7 +11,7 @@ Pode ser agendado ou executado sob demanda e funciona com agente local instalado
 
 
 # Fluxo para transferência de dados:
-Exportar os dados do DynamoDB para o S3, com exportação nativa via console ou API com suporte ao formato Parquet. Depois disso, o DataSync leva esses dados do S3 até seu storage local.
+Exportar os dados do DynamoDB para o S3, com exportação nativa via console ou API com suporte ao formato Parquet. Depois disso, o DataSync leva esses dados do S3 até o Storage On-premises.
 
 
 Conectividade: VPN ou AWS Direct Connect
