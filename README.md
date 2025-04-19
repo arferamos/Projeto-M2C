@@ -19,6 +19,8 @@ Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
 
 Garantir as funcionalidades do sistema pelo DR mantendo o percentual acordado de serviço up.
 
+Manter a solução atual de Storage que está instalada dentro dos Datacenters On-premises.
+
 
 ## Volumetria:
 A volumetria atual não sofrerá alterações, mas necessitará da criação de uma infraestrutura paralela para conviver com a infraestrutura atual, até que todos os requisitos funcionais tenham sido migrados, testados e homologados dentro do novo ambiente.
