@@ -8,7 +8,7 @@
 
 
 ## Obs:
-O report foi exportado e se encontra-se junto com as demias evidências em Evidências.md 
+O report foi exportado e se encontra-se junto com as demais evidências em Evidências.md 
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Evid%C3%AAncias.md
 
