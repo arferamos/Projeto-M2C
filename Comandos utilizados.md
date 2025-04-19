@@ -1,4 +1,4 @@
-Instale a ferramenta CLI eksctl 
+## Instale a ferramenta CLI eksctl 
 
 
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
@@ -8,6 +8,7 @@ sudo cp /tmp/eksctl /usr/bin
 
 
 eksctl version
+
 ​
 Instale a ferramenta CLI kubectl 
 
@@ -25,7 +26,8 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 
 kubectl version --short --client
 ​
-Instale a ferramenta CLI helm:
+
+### Instale a ferramenta CLI helm:
 
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 
@@ -35,11 +37,13 @@ chmod 700 get_helm.sh
 
 helm version
 ​
-Crie um usuário IAM eks-user com AdministratorAccess policy.
+
+### Crie um usuário IAM eks-user com AdministratorAccess policy.
 
 Crie uma Access Key para o eks-user
 
-Usando o Terraform, provisione o S3 e a tabela DynamoDB a serem usados pela Aplicação 
+
+### Usando o Terraform, provisione o S3 e a tabela DynamoDB a serem usados pela Aplicação 
 
 cd /home/ec2-user/environment/human-gov-infrastructure/terraform
 
