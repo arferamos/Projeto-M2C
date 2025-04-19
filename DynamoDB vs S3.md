@@ -3,7 +3,7 @@ Devido a necessidade de acesso rápido e em tempo real a dados estruturados o Dy
 
 DynamoDB gerencia automaticamente o escalonamento de leitura e escrita com provisionamento sob demanda, enquanto o S3 é mais focado em throughput bruto para arquivos.
 
-No S3, cada alteração geralmente envolve sobrescrever o objeto inteiro, enquanto no DynamoDB, é possível atualizar apenas campos específicos de um item, com menor custo e mais eficiência.  
+No S3, cada alteração geralmente envolve sobrescrever o objeto inteiro, enquanto no DynamoDB, é possível atualizar apenas campos específicos de um item, com menor custo (nesse caso) e mais eficiência.  
 
 # Como os dados serão enviados para o Storage on-premises ?
 O AWS DataSync é uma ferramenta ideal para transferência eficiente de arquivos entre S3 e Storage local. Ele comprime, criptografa e transfere arquivos de forma segura e incremental sendo ideal pra volumes grandes.
