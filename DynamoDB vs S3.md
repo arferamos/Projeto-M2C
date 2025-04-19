@@ -29,6 +29,8 @@ Devido a questões de latência, o AWS Direct Connect é melhor para o cenário 
 
 Com objetivo em deixar o ambiente com relação aos dados de forma híbrida. O cenário acima pode ser utilizado através de um link dedicado entre Datacenter local e Nuvem.
 
+
+## Obs:
 Poderia apesentar a solução diretamente utilizando S3 com suas opções de Lifecycle , mas o objetivo também é demonstrar o conhecimento técnico e de arquitetura em outras opções.
 Se o objetivo seria em considerar apenas o S3, a recomendação mediante a reuniões de entendimento sobre a demanda, seria incialmente essa abaixo.
 Dia 0   → Objeto criado no S3 Standard  
