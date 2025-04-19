@@ -83,11 +83,13 @@ helm repo update eks
 ​
 Instale o AWS Load Balancer Controller.
 
-Verifique que o controller está instalado.
+### Verifique que o controller está instalado.
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ​
 Um exemplo de output é o seguinte:
+
 NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+
 aws-load-balancer-controller   2/2     2            2           84s
 
 
