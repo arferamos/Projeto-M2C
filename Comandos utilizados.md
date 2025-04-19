@@ -54,24 +54,23 @@ terraform plan
 terraform apply
 ​
 
-## Crie um EKS Cluster
+### Crie um EKS Cluster
 eksctl create cluster --name humangov-cluster --region us-east-1 --nodegroup-name standard-workers --node-type t3.medium --nodes 1
-
 ​
-## Conecte-se ao cluster EKS usando a configuração do kubectl 
+### Conecte-se ao cluster EKS usando a configuração do kubectl 
 aws eks update-kubeconfig --name humangov-cluster
 
 ​
-## Verifique a conectividade do Cluster
+### Verifique a conectividade do Cluster
 kubectl get svc
 
 kubectl get nodes
 
-## Crie uma política IAM.
+### Crie uma política IAM.
 Baixe uma política IAM para o AWS Load Balancer Controller que permita que ele faça chamadas às APIs da AWS em seu nome.
 curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/refs/heads/main/docs/install/iam_policy.json
 ​
-## Crie um provedor de identidade IAM OIDC para o seu cluster com o eksctl
+### Crie um provedor de identidade IAM OIDC para o seu cluster com o eksctl
 eksctl utils associate-iam-oidc-provider --cluster humangov-cluster --approve
 ​
 Crie uma função IAM e uma conta de serviço Kubernetes com o nome aws-load-balancer-controller no namespace kube-system para o AWS Load Balancer Controller e adicione uma anotação à conta de serviço Kubernetes com o nome da IAM role.
@@ -90,7 +89,7 @@ Instale o AWS Load Balancer Controller.
 ### Verifique que o controller está instalado.
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ​
-Um exemplo de output é o seguinte:
+### Um exemplo de output é o seguinte:
 
 NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
 
@@ -129,7 +128,8 @@ Execute o seguinte comando para fazer o push desta imagem para o novo repositór
 ​
 ### Implemente a Aplicação para Cada Estado
 Crie o arquivo humangov-california.yaml no diretório human-gov-application/src . 
-Substitua o caminho da imagem do ECR e o nome do Bucket da AWS pelos nomes dos seus recursos, conforme mostrado em vermelho abaixo:
+
+  ### Substitua o caminho da imagem do ECR e o nome do Bucket da AWS pelos nomes dos seus recursos, conforme mostrado em vermelho abaixo:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
