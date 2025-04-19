@@ -14,6 +14,8 @@
 ![S3 Construido com Terraform](https://github.com/user-attachments/assets/3b28b7e2-25b3-4cc0-a594-d0f19e6fb15f)
 ![Delete eksctl](https://github.com/user-attachments/assets/ed09fbdd-abcc-4056-b61a-cf9b4565f2b8)
 ![Delete eks cluster e ingress](https://github.com/user-attachments/assets/c1e62dbe-1506-481f-a2c4-d4f714e627eb)
+![image](https://github.com/user-attachments/assets/2c32ea75-9929-42bc-96a3-07b0ffa5e0f2)
+
 
 
 
