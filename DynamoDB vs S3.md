@@ -1,12 +1,12 @@
 # Por que utilizar o DynamoDB e não somente o Amazon S3 ?
-R: Devido a necessidade de acesso rápido e em tempo real a dados estruturados o DynamoDB oferece latência de milissegundos em leituras e gravações, ideal para aplicações que precisam de resposta rápida, como sistemas transacionais, dashboards em tempo real ou APIs.
+Devido a necessidade de acesso rápido e em tempo real a dados estruturados o DynamoDB oferece latência de milissegundos em leituras e gravações, ideal para aplicações que precisam de resposta rápida, como sistemas transacionais, dashboards em tempo real ou APIs.
 
 DynamoDB gerencia automaticamente o escalonamento de leitura e escrita com provisionamento sob demanda, enquanto o S3 é mais focado em throughput bruto para arquivos.
 
-No S3, cada alteração geralmente envolve sobrescrever o objeto inteiro. No DynamoDB, é possível atualizar apenas campos específicos de um item, com menor custo e mais eficiência.  
+No S3, cada alteração geralmente envolve sobrescrever o objeto inteiro, enquanto no DynamoDB, é possível atualizar apenas campos específicos de um item, com menor custo e mais eficiência.  
 
 # Como os dados serão enviados para o Storage on-premises ?
-R: O AWS DataSync é uma ferramenta ideal para transferência eficiente de arquivos entre S3 e Storage local. Ele comprime, criptografa e transfere arquivos de forma segura e incremental sendo ideal pra volumes grandes.
+O AWS DataSync é uma ferramenta ideal para transferência eficiente de arquivos entre S3 e Storage local. Ele comprime, criptografa e transfere arquivos de forma segura e incremental sendo ideal pra volumes grandes.
 Pode ser agendado ou executado sob demanda e funciona com agente local instalado no datacenter e S3 como origem.
 
 
