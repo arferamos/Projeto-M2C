@@ -14,10 +14,16 @@ Pode ser agendado ou executado sob demanda e funciona com agente local instalado
 Exportar os dados do DynamoDB para o S3, com exportação nativa via console ou API com suporte ao formato Parquet. Depois disso, o DataSync leva esses dados do S3 até o Storage On-premises.
 
 
-Conectividade: VPN ou AWS Direct Connect
+Conectividade: 
+
+VPN ou AWS Direct Connect
+
 Para que o DataSync ou qualquer outro serviço da AWS consiga alcançar o Storage local (on-premises), será necessário obter uma conexão segura:
+
 1-	VPN Site-to-Site (mais simples e barato, boa para baixa/média carga).
+
 2-	AWS Direct Connect (latência menor, ideal para transferências de alto volume ou missão crítica).
+
 Devido a questões de latência, o AWS Direct Connect é melhor para o cenário em questão.
 
 
