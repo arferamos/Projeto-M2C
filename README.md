@@ -95,7 +95,7 @@ Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity,
 Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura não sofrerá impacto durante a Janela de Manutenção.
 
 ## Por que não utilizar somente o S3 para os Dados ?
-Todos os detalhes estão em DynamoDB vc S3.
+Todos os detalhes estão em DynamoDB vc S3.md
 
 Favor checar no link abaixo:
 
