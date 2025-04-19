@@ -50,39 +50,35 @@ terraform plan
 terraform apply
 ​
 
-Crie um EKS Cluster
+## Crie um EKS Cluster
 eksctl create cluster --name humangov-cluster --region us-east-1 --nodegroup-name standard-workers --node-type t3.medium --nodes 1
 
 ​
-Conecte-se ao cluster EKS usando a configuração do kubectl 
+## Conecte-se ao cluster EKS usando a configuração do kubectl 
 aws eks update-kubeconfig --name humangov-cluster
 
 ​
-Verifique a conectividade do Cluster
+## Verifique a conectividade do Cluster
 kubectl get svc
+
 kubectl get nodes
 
-
-
-Crie uma política IAM.
+## Crie uma política IAM.
 Baixe uma política IAM para o AWS Load Balancer Controller que permita que ele faça chamadas às APIs da AWS em seu nome.
 curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/refs/heads/main/docs/install/iam_policy.json
 ​
-Crie uma política IAM usando a política baixada na etapa anterior.
-aws iam create-policy \
-    --policy-name AWSLoadBalancerControllerIAMPolicy \
-    --policy-document file://iam_policy.json
-​
-Crie um provedor de identidade IAM OIDC para o seu cluster com o eksctl
+## Crie um provedor de identidade IAM OIDC para o seu cluster com o eksctl
 eksctl utils associate-iam-oidc-provider --cluster humangov-cluster --approve
 ​
 Crie uma função IAM e uma conta de serviço Kubernetes com o nome aws-load-balancer-controller no namespace kube-system para o AWS Load Balancer Controller e adicione uma anotação à conta de serviço Kubernetes com o nome da IAM role.
 
-Instale o AWS Load Balancer Controller usando o Helm V3 ou posterior, ou aplicando um manifesto Kubernetes..
-Adicione o repositório eks-charts .
+## Instale o AWS Load Balancer Controller usando o Helm V3 ou posterior, ou aplicando um manifesto Kubernetes
+Adicione o repositório eks-charts
+
 helm repo add eks https://aws.github.io/eks-charts
 ​
 Atualize seu repositório local para garantir que você tenha os charts mais recentes.
+
 helm repo update eks
 ​
 Instale o AWS Load Balancer Controller.
