@@ -59,7 +59,6 @@ eksctl create cluster --name humangov-cluster --region us-east-1 --nodegroup-nam
 ​
 ### Conecte-se ao cluster EKS usando a configuração do kubectl 
 aws eks update-kubeconfig --name humangov-cluster
-
 ​
 ### Verifique a conectividade do Cluster
 kubectl get svc
