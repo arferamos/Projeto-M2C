@@ -85,6 +85,9 @@ Utilizando metodologia DevOps com Kubernetes na AWS, Route53 para domínios, rot
 # Arquitetura To-be
 ![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/c432004a-9f44-4535-b5e0-735761b52ff0)
 
+![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/27c4d38b-2265-4495-a7e0-9970ce5830a7)
+
+
 
 ## Risco e Restrições
 ### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
