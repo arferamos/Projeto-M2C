@@ -31,8 +31,9 @@ Com objetivo em deixar o ambiente com relação aos dados de forma híbrida. O c
 
 
 ## Obs:
-Poderia apesentar a solução diretamente utilizando S3 com suas opções de Lifecycle , mas o objetivo também é demonstrar o conhecimento técnico e de arquitetura em outras opções.
+Poderia apesentar a solução diretamente utilizando S3 com suas opções de Lifecycle, mas o objetivo também é demonstrar o conhecimento técnico e de arquitetura em outras opções.
 Se o objetivo seria em considerar apenas o S3, a recomendação mediante a reuniões de entendimento sobre a demanda, seria incialmente essa abaixo.
+
 Dia 0   → Objeto criado no S3 Standard  
 Dia 30  → Objeto movido para S3 Standard-IA (Infrequent Access)  
 Dia 90  → Objeto movido para S3 Glacier Instant Retrieval  
