@@ -46,6 +46,13 @@
 ## FinOps ambiente AS-IS
 ![image](https://github.com/user-attachments/assets/2c32ea75-9929-42bc-96a3-07b0ffa5e0f2)
 
+## FinOps To-be
+
+
+## Volumetria
+![image](https://github.com/user-attachments/assets/b2e7fc7e-8388-4072-8224-8f900d690167)
+
+
 
 
 
