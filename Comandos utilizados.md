@@ -404,19 +404,19 @@ kubectl get ingress
 ```
 
 ## Passo Final: Destruindo o ambiente
-Exclua o Kubernetes Ingress
+Exclua o Kubernetes Ingress:
     
 kubectl delete -f humangov-ingress-all.yaml
-    ```
     
-Exclua os recursos restantes da aplicação no Kubernetes.
+    
+Exclua os recursos restantes da aplicação no Kubernetes:
     
 bash
     kubectl delete -f humangov-california.yaml
     kubectl delete -f humangov-florida.yaml
     ```
     
-Exclua o EKS Cluster usando a CLI
+Exclua o EKS Cluster usando a CLI:
     
 bash
     eksctl delete cluster --name humangov-cluster --region us-east-1
