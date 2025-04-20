@@ -42,6 +42,8 @@
 ## Delete eks cluster e ingress
 ![Delete eks cluster e ingress](https://github.com/user-attachments/assets/c1e62dbe-1506-481f-a2c4-d4f714e627eb)
 
+
+## FinOps ambiente AS-IS
 ![image](https://github.com/user-attachments/assets/2c32ea75-9929-42bc-96a3-07b0ffa5e0f2)
 
 
