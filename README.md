@@ -8,6 +8,10 @@ Na fase 1 desse projeto, o objetivo é migrar para um ambiente híbrido para apr
 
 A arquitetura atual da solução é baseada e um fluxo de caixa que é composta por dois serviços rodando em VMs em Datacenter on-premises.
 
+
+https://github.com/arferamos/Projeto-M2C/blob/main/LICENSE
+
+
 ## Macro Escopo
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
 A arquitetura de integração dos sistemas legado está baseado em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
