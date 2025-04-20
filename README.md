@@ -32,7 +32,8 @@ A volumetria atual não sofrerá alterações, mas necessitará da criação de 
 Para quantificar a quantidade de transações que entram no Barramento de serviços, temos que considerar a coluna "Transações Entrada" na tabela. Ou seja, uma aplicação consumindo o serviço.
 A coluna "Orquestrações Internas" representam todo o fluxo executado pelos serviços consumindo as camadas internas do serviço xpto.
 
-![image](https://github.com/user-attachments/assets/1e261991-6ade-48a1-b06d-9fd9f1357f74)
+![image](https://github.com/user-attachments/assets/d4ffeabd-478d-443f-8aa0-f1a334b8bc46)
+
 
 ![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
 
