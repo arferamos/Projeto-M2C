@@ -80,7 +80,7 @@ Segurança:
 AWS Certificate Manager usado para provisionar certificados SSL.
 Terminação SSL feita no ALB para tráfego seguro.
 
-## Resultado final:
+### Resultado final:
 Aplicação altamente disponível, segura e escalável, acessível por domínio seguro.
 Utilizando metodologia DevOps com Kubernetes na AWS, Route53 para domínios, roteamento de tráfego, SSL e containerização.
 
