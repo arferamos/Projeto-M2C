@@ -1,3 +1,4 @@
+## Aplicação rodando em subdominios diferente utilizado ssl, https e Route53
 ![image](https://github.com/user-attachments/assets/162557bd-23cf-456e-b1fd-a3060b658346)
 ![image](https://github.com/user-attachments/assets/cdca016e-b7e2-433a-8da2-88324b53b1f5)
 ![Certificate](https://github.com/user-attachments/assets/d4850c68-6e18-4e7c-850a-12bf545c37bb)
