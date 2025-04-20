@@ -3,6 +3,8 @@
 # Apresentação da Demanda
 O Projeto M2C vem do direcional executivo e tem por objetivo mover toda a aplicação do Datacenter on-premises para a Cloud com objetivo na descontinuidade dos Datacenter próprios.
 Futuramente, toda a parte de Storage também será movida para a Cloud.
+Na fase 1 desse projeto, o objetivo é migrar para um ambiente híbrido para aproveitar a escalabilidade e flexibilidade da nuvem sem abandonar investimentos existentes.
+A arquitetura da solução é baseada e um fluxo de caixa atual e é composta por dois serviços rodando em VMs em Datacenter on-premises.
 
 ## Macro Escopo
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
