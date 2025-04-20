@@ -11,7 +11,7 @@ A arquitetura atual da solução é baseada e um fluxo de caixa que é composta 
 ## Macro Escopo
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
 A arquitetura de integração dos sistemas legado está baseado em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
-O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps.
+O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps mantendo a solução em ambiente hibrido sem abandonar investimentos existentes em seus storages.
 
 ![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472)
 
