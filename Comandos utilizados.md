@@ -404,8 +404,7 @@ kubectl get ingress
 ```
 
 ## Passo Final: Destruindo o ambiente
-
-1. Exclua o Kubernetes Ingress
+Exclua o Kubernetes Ingress
     
 kubectl delete -f humangov-ingress-all.yaml
     ```
