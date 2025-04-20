@@ -8,10 +8,8 @@ Na fase 1 desse projeto, o objetivo é migrar para um ambiente híbrido para apr
 
 A arquitetura atual da solução é baseada e um fluxo de caixa que é composta por dois serviços rodando em VMs em Datacenter on-premises.
 
-
-https://img.shields.io/badge/:badgeContent
-
- (https://img.shields.io/npm/1/react) https://github.com/arferamos/Projeto-M2C/blob/main/LICENSE
+## License
+https://github.com/arferamos/Projeto-M2C/blob/main/LICENSE
 
 
 ## Macro Escopo
