@@ -103,7 +103,7 @@ Utilizando metodologia DevOps com Kubernetes na AWS, Route53 para domínios, rot
 
 ## Risco e Restrições
 ### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
-A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por serviços que estão rodando nos servidores vms no Datacenter on-premises e cada uma delas em horário de baixo tráfego e em final de semana.
+A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por serviços que estão rodando nos servidores vms no Datacenter on-premises e a Janela de Manutenção deve ser realizada em horário de baixo tráfego e em final de semana.
 
 Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity, Segurança, Integração e Arquitetura, todo o alinhamento necessário foi realizado.
 
