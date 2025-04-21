@@ -54,11 +54,7 @@ Arquitetura já está sem escalabilidade em ambiente virtualizado devido a probl
 
 
 ## Storage H.A com GFS sendo utilizado a solução Huawei, Dell ou Hitachi Vantara na qual tenho experiência nas 3 soluções:
-![image](https://github.com/user-attachments/assets/f2a9b5a2-3368-4814-95ed-a49228ca9f4d)
 ![image](https://github.com/user-attachments/assets/894dd640-f3ff-4ed0-a5d6-c2c34af78364)
-
-
-
 
 Obs: Nas soluções para storage desses players, é possível tambem utilizar NAS para file server e Object Storage.
 
