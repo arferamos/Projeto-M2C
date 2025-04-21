@@ -130,14 +130,13 @@ https://github.com/arferamos/Projeto-M2C/blob/main/Comandos%20utilizados.md
 
 
 ## Evidências da Solução
-Favor checar em Evidências.md ou no link abaixo:
+Favor checar no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Evid%C3%AAncias.md
 
 
 ## Plano Orçamentário FinOps
-Favor checar em Plano FinOps.md clicando no link abaixo:
-
+Favor checar em Plano FinOps.md ou clicando no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/FinOps.md
 
