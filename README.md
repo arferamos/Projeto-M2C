@@ -46,7 +46,7 @@ A coluna "Orquestrações Internas" representam todo o fluxo executado pelos ser
 
 
 ## Cenário As-Is:
-Arquitetura sem escalabilidade em ambiente virtualizado, está em “End-of-Service” e obsoleto devido a versões e contrato com fornecedores sem renovação "End-of-Suporte"
+Arquitetura já está sem escalabilidade em ambiente virtualizado devido a problemas de spare parts, está em “End-of-Service” e obsoleto devido a versões e contrato com fornecedores sem renovação "End-of-Suporte"
 
 
 ## Arquitetura AS-IS
