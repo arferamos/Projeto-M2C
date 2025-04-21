@@ -66,7 +66,7 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 
 # Proposta de Arquitetura para o cenário To-be
 ## Objetivo: 
-Implantar a aplicação com subdomínios na AWS utilizando o Reoute 53
+Implantar a aplicação com subdomínios na AWS utilizando o Route 53
 
 Infraestrutura:
 Configuração da VPC com seus derivados e do cluster EKS.
