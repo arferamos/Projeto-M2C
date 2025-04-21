@@ -26,11 +26,16 @@ O alerta pode ser enviado para um webhook para o AWS SNS.
 
 
 ## AWS SNS (Simple Notification Service)
-O SNS atua como um canal de distribuição de alertas.
-O Alertmanager envia os alertas como mensagens HTTP (webhook) para um tópico SNS.
+O SNS atua como um canal de distribuição de alertas e o Alertmanager envia os alertas como mensagens utilizando o webhook para um tópico SNS.
+
 O SNS pode então:
 Enviar email para operadores/devs.
+
 Disparar mensagens SMS.
+
 Acionar um bot no Slack via Lambda.
+
 Invocar uma Lambda function para ações automáticas (ex: escalar pods, abrir ticket, etc.).
+
+Obs: Na arquitetura proposta, o caminho para o SNS será para envio por emails.
 
