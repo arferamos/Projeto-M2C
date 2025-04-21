@@ -118,25 +118,25 @@ https://github.com/arferamos/Projeto-M2C/blob/main/DynamoDB%20vs%20S3.md
 
 
 ## Observabilidade
-Favor checar no link abaixo:
+Favor checar em Observabilidade.md ou clicancdo no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Observabilidade.md
 
 
 ## Comandos utilizados para deploy do Projeto
-Favor checar no link abaixo:
+Favor checar em Comandos utilizados.md ou clicando no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Comandos%20utilizados.md
 
 
 ## Evidências da Solução
-Favor checar no link abaixo:
+Favor checar em Evidências.md ou clicacndo no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Evid%C3%AAncias.md
 
 
 ## Plano Orçamentário FinOps
-Favor checar em Plano FinOps.md ou clicando no link abaixo:
+Favor checar em FinOps.md ou clicando no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/FinOps.md
 
