@@ -10,8 +10,11 @@ Com base nas métricas, é possível definir regras de alerta (ex: CPU > 85% por
 
 ## Dentro do cluster EKS é necessário instalar os exporters abaixo:
 node_exporter: coleta métricas dos nós (CPU, memória, etc).
+
 kube-state-metrics: coleta o estado dos recursos do Kubernetes (pods, deployments, etc.).
+
 cadvisor: coleta métricas de containers em execução.
+
 Esses componentes expõem métricas em formato Prometheus (/metrics endpoint), para leitura.
 
 ## Alertmanager dispara alertas:
