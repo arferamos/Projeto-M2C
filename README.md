@@ -112,7 +112,7 @@ Nesse formato acima, todos os envolvidos no projeto entende que a infraestrutura
 ## Por que não utilizar somente o S3 para os Dados ?
 Todos os detalhes estão em DynamoDB vs S3.md
 
-Favor checar no link abaixo:
+Favor checar em DynamoDB vs S3.md ou clicando no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/DynamoDB%20vs%20S3.md
 
