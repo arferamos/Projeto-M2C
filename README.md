@@ -31,7 +31,7 @@ Garantir a escalabilidade e alta disponibilidade "HA" do ambiente proposto.
 
 Garantir as funcionalidades do sistema pelo DR mantendo o percentual acordado de serviço up no Datacenter Corporativo 2.
 
-Manter a solução atual de Storage que está instalada dentro dos Datacenters On-premises com objetivo em manter a solução no formato híbrido para aproveitar a escalabilidade e flexibilidade da nuvem sem abandonar investimentos existentes.
+Manter a solução atual de Storage que está instalada dentro dos Datacenters on-premises com objetivo em manter a solução no formato híbrido para aproveitar a escalabilidade e flexibilidade da nuvem sem abandonar investimentos existentes.
 
 
 ## Volumetria:
