@@ -2,7 +2,7 @@
 
 ## Grafana exibe métricas e alertas: 
 O Grafana roda no EKS ou via Amazon Managed Grafana.
-Ele se conecta ao Prometheus como data source sendo possível, criar dashboards personalizados com gráficos e tabelas, monitorar o estado da infraestrutura e das aplicações em tempo real e configurar alertas visuais no próprio Grafana.
+Ele se conecta ao Prometheus como data source sendo possível criar dashboards personalizados com gráficos e tabelas, monitorar o estado da infraestrutura e das aplicações em tempo real e configurar alertas visuais no próprio Grafana.
 
 ## Prometheus coleta e armazena as métricas: 
 O Prometheus roda dentro do cluster EKS via helm, scrapeia os endpoints /metrics periodicamente e armazena os dados em seu banco interno (time series database).
