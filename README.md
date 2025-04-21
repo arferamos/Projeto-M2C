@@ -117,6 +117,12 @@ Favor checar no link abaixo:
 https://github.com/arferamos/Projeto-M2C/blob/main/DynamoDB%20vs%20S3.md
 
 
+## Observabilidade
+Favor checar no link abaixo:
+
+https://github.com/arferamos/Projeto-M2C/blob/main/Observabilidade.md
+
+
 ## Comandos utilizados para deploy do Projeto
 Favor checar em Comando utilizados.md
 
