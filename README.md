@@ -4,9 +4,12 @@
 O Projeto M2C vem do direcional executivo e tem por objetivo mover toda a aplicação do Datacenter on-premises para a Cloud com objetivo na descontinuidade dos Datacenter próprios.
 Futuramente, toda a parte de Storage também será movida para a Cloud.
 
-Na fase 1 desse projeto, o objetivo é migrar para um ambiente híbrido para aproveitar a escalabilidade e flexibilidade da nuvem sem abandonar investimentos existentes.
+Na fase 1 desse projeto, o objetivo é migrar parte da solução atual para a nuvem tornando a solução e modelo híbrido para aproveitar a escalabilidade e flexibilidade da nuvem sem abandonar investimentos existentes.
 
 A arquitetura atual da solução é baseada e um fluxo de caixa que é composta por dois serviços rodando em VMs em Datacenter on-premises.
+
+Serviço que faz o Controle de Lançamentos e Serviço do Consolidado Diário. 
+
 
 ## MIT License
 https://github.com/arferamos/Projeto-M2C/blob/main/LICENSE
@@ -17,7 +20,9 @@ Atualmente o parque de servidores de nossos Datacenter on-premises estão em pro
 A arquitetura de integração dos sistemas legado está baseado em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps mantendo a solução em ambiente hibrido sem abandonar investimentos existentes em seus storages.
 
-![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472)
+![image](https://github.com/user-attachments/assets/6faa6e49-735f-4409-b9b9-337135fd3472
+![image](https://github.com/user-attachments/assets/e601cb0c-545d-459b-8f3f-e010d016c7f1)
+
 
 ## Premissas de Arquitetura
 Migração do ambiente On-premises para a Cloud deve ser realizada de forma faseada sem impacto no ambiente atual assegurando a eficiência e performance na comunicação dos sistemas.
