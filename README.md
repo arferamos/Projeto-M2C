@@ -59,7 +59,7 @@ Arquitetura já está sem escalabilidade em ambiente virtualizado devido a probl
 Obs: Nas soluções para storage desses players, é possível tambem utilizar NAS para file server e Object Storage.
 
 ## Desaster Recovery
-Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio de até 300km entre Datacenters On-premises.
+Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio de até 300km entre Datacenters on-premises.
 
 ![image](https://github.com/user-attachments/assets/033c6449-92f0-412f-b2e1-7b207dc398c3)
 
