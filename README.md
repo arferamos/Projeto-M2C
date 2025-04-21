@@ -38,7 +38,7 @@ Manter a solução atual de Storage que está instalada dentro dos Datacenters o
 A volumetria atual não sofrerá alterações, mas necessitará da criação de uma infraestrutura paralela para conviver com a infraestrutura atual, até que todos os requisitos funcionais tenham sido migrados, testados e homologados dentro do novo ambiente.
 
 Para quantificar a quantidade de transações que entram no Barramento de serviços, temos que considerar a coluna "Transações Entrada" na tabela. Ou seja, uma aplicação consumindo o serviço.
-A coluna "Orquestrações Internas" representam todo o fluxo executado pelos serviços consumindo as camadas internas do serviço xpto.
+A coluna "Orquestrações Internas" representam todo o fluxo executado pelos serviços consumindo as camadas internas dos serviços Controle de Lançamentos e Serviço do Consolidado Diário.
 
 ![image](https://github.com/user-attachments/assets/d99cc509-1af2-4ead-a2bb-21b3fb7f4a2f)
 
