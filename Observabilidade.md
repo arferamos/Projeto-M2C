@@ -37,5 +37,5 @@ Acionar um bot no Slack via Lambda.
 
 Invocar uma Lambda function para ações automáticas (ex: escalar pods, abrir ticket, etc.).
 
-Obs: Na arquitetura proposta, o caminho para o SNS será para envio por emails.
+Obs: Na arquitetura proposta, a utilização para o SNS será para envio por emails.
 
