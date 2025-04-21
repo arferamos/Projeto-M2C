@@ -47,6 +47,10 @@
 ![image](https://github.com/user-attachments/assets/2c32ea75-9929-42bc-96a3-07b0ffa5e0f2)
 
 ## FinOps To-be
+Plano Financeiro de Investimento para ambiente em ambiente TO-BE Cloud AWS
+
+![image](https://github.com/user-attachments/assets/ab6d03b4-6a94-47c1-a760-b62307bfc4a5)
+![image](https://github.com/user-attachments/assets/65cc4a4a-3167-4eec-b5fa-2689da3f0d54)
 
 
 ## Volumetria
