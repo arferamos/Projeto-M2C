@@ -53,8 +53,10 @@ Plano Financeiro de Investimento para ambiente em ambiente TO-BE Cloud AWS
 ![image](https://github.com/user-attachments/assets/65cc4a4a-3167-4eec-b5fa-2689da3f0d54)
 
 
-## Volumetria
-![image](https://github.com/user-attachments/assets/b2e7fc7e-8388-4072-8224-8f900d690167)
+## Volumetria e TPS
+![image](https://github.com/user-attachments/assets/d99cc509-1af2-4ead-a2bb-21b3fb7f4a2f)
+
+![image](https://github.com/user-attachments/assets/3e8d1e8e-6937-4b22-a488-72c2588134ff)
 
 
 
