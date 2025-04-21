@@ -64,8 +64,6 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 ![image](https://github.com/user-attachments/assets/033c6449-92f0-412f-b2e1-7b207dc398c3)
 
 
-
-
 # Proposta de Arquitetura para o cenário To-be
 ## Objetivo: 
 Implantar a aplicação SaaS com subdomínios na AWS usando EKS (Elastic Kubernetes Service).
