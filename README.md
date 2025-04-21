@@ -18,7 +18,7 @@ https://github.com/arferamos/Projeto-M2C/blob/main/LICENSE
 ## Macro Escopo
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
 A arquitetura de integração dos sistemas legado está baseada em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
-O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps mantendo a solução em ambiente hibrido sem abandonar investimentos existentes em seu ambente de DR e também de armazenamento em storages.
+O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps mantendo a solução em ambiente híbrido sem abandonar investimentos existentes em seu ambente de DR e também de armazenamento em storages.
 
 ![image](https://github.com/user-attachments/assets/fcf2b682-9bb1-47a2-999c-253203cd979f)
 
