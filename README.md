@@ -96,7 +96,6 @@ Utilizando metodologia DevOps com Kubernetes na AWS, Route53 para domínios, rot
 
 
 # Arquitetura To-be
-![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/27c4d38b-2265-4495-a7e0-9970ce5830a7)
 ![Desenho de arquitetura To-be](https://github.com/user-attachments/assets/8fd57647-5713-4ebe-83d5-7ea92e4e3627)
 
 
