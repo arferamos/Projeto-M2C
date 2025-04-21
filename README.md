@@ -124,13 +124,13 @@ https://github.com/arferamos/Projeto-M2C/blob/main/Observabilidade.md
 
 
 ## Comandos utilizados para deploy do Projeto
-Favor checar em Comando utilizados.md
+Favor checar no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Comandos%20utilizados.md
 
 
 ## Evidências da Solução
-Favor checar em Evidências.md
+Favor checar em Evidências.md ou no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Evid%C3%AAncias.md
 
