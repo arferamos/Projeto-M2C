@@ -64,7 +64,7 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 ![image](https://github.com/user-attachments/assets/033c6449-92f0-412f-b2e1-7b207dc398c3)
 
 
-# Proposta de Arquitetura para o cenário To-be
+# Proposta de Arquitetura para o Cenário To-be
 ## Objetivo: 
 Implantar a aplicação com subdomínios na AWS utilizando o Route 53
 
@@ -103,7 +103,7 @@ Utilizando metodologia DevOps com Kubernetes na AWS, Route53 para domínios, rot
 
 ## Risco e Restrições
 ### Migrar os serviços do Legado para a arquitetura de integração meta da empresa
-A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por serviços que estão rodando nos servidores vms no Datacenter on-premises e a Janela de Manutenção deve ser realizada em horário de baixo tráfego e em final de semana.
+A implantação do novo ambiente será realizada através de Janela de Manutenção com GMUD aprovada dentro do Comitê Executivo de Mudanças que serão planejadas por serviços que estão rodando nos servidores vms no Datacenter on-premises e a Janela de Manutenção deve ser realizada em horário de baixo tráfego e no final de semana.
 
 Mediante reunião realizada entre Gerente de Projetos, Lider Técnico, Capacity, Segurança, Integração e Arquitetura, todo o alinhamento necessário foi realizado.
 
