@@ -20,7 +20,8 @@ Atualmente o parque de servidores de nossos Datacenter on-premises estão em pro
 A arquitetura de integração dos sistemas legado está baseada em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps mantendo a solução em ambiente hibrido sem abandonar investimentos existentes em seu ambente de DR e também de armazenamento em storages.
 
-![image](https://github.com/user-attachments/assets/92993449-46d2-4d3c-a1e3-6a5a2b233086)
+![image](https://github.com/user-attachments/assets/4886d036-eebc-4f32-b96d-affae2c683f3)
+
 
 
 
