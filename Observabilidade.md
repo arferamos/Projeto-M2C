@@ -19,7 +19,10 @@ Esses componentes expõem métricas em formato Prometheus (/metrics endpoint), p
 
 ## Alertmanager dispara alertas:
 Quando uma regra de alerta é acionada no Prometheus, ele envia o alerta para o Alertmanager.
-O Alertmanager é responsável por evitar alertas duplicados e agrupar alertas semelhantes, rotear de forma decisiva para onde mandar os alertas. O alerta final é enviado para um webhook para o AWS SNS.
+
+O Alertmanager é responsável por evitar alertas duplicados e agrupar alertas semelhantes, rotear de forma decisiva para onde mandar os alertas. 
+
+O alerta pode ser enviado para um webhook para o AWS SNS.
 
 
 ## AWS SNS (Simple Notification Service)
