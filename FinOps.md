@@ -4,7 +4,9 @@
 ![image](https://github.com/user-attachments/assets/f2db1dec-eebe-4abd-acc2-695bc18fc14b)
 
 ## Plano Financeiro de Investimento para ambiente em ambiente TO-BE Cloud AWS
-![image](https://github.com/user-attachments/assets/5f9903af-3502-4055-bfae-c1a922bd867c)
+![image](https://github.com/user-attachments/assets/ab6d03b4-6a94-47c1-a760-b62307bfc4a5)
+![image](https://github.com/user-attachments/assets/65cc4a4a-3167-4eec-b5fa-2689da3f0d54)
+
 
 
 ## Obs:
