@@ -19,10 +19,7 @@ https://github.com/arferamos/Projeto-M2C/blob/main/LICENSE
 Atualmente o parque de servidores de nossos Datacenter on-premises estão em processo de desativação devido a falta de suporte e as aplicações estão sendo migradas para a Nuvem.
 A arquitetura de integração dos sistemas legado está baseada em uma arquitetura já obsoleta e sem suporte do fornecedor com o custo muito alto de manutenção e spare parts comprometido. 
 O objetivo dessa demanda é prover a atualização tecnológica do barramento de serviços com soluções em container na cloud, com desenvolvimento LowCode para uma maior produtividade e seguir a metodologia DevOps mantendo a solução em ambiente hibrido sem abandonar investimentos existentes em seu ambente de DR e também de armazenamento em storages.
-
-![image](https://github.com/user-attachments/assets/4886d036-eebc-4f32-b96d-affae2c683f3)
-
-
+![image](https://github.com/user-attachments/assets/e32c1d34-3a1b-43bb-b20a-47ed829b7372)
 
 
 ## Premissas de Arquitetura
