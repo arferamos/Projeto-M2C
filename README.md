@@ -66,7 +66,7 @@ Disaster Recovery plan com link dedicado utilizando mpls, fiber channel com raio
 
 # Proposta de Arquitetura para o cenário To-be
 ## Objetivo: 
-Implantar a aplicação SaaS com subdomínios na AWS usando EKS (Elastic Kubernetes Service).
+Implantar a aplicação com subdomínios na AWS usando EKS (Elastic Kubernetes Service).
 
 Infraestrutura:
 Configuração da VPC com seus derivados e do cluster EKS.
