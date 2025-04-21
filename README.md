@@ -129,16 +129,17 @@ Favor checar em Comandos utilizados.md ou clicando no link abaixo:
 https://github.com/arferamos/Projeto-M2C/blob/main/Comandos%20utilizados.md
 
 
+## Plano Orçamentário FinOps
+Favor checar em FinOps.md ou clicando no link abaixo:
+
+https://github.com/arferamos/Projeto-M2C/blob/main/FinOps.md
+
+
 ## Evidências da Solução
 Favor checar em Evidências.md ou clicacndo no link abaixo:
 
 https://github.com/arferamos/Projeto-M2C/blob/main/Evid%C3%AAncias.md
 
-
-## Plano Orçamentário FinOps
-Favor checar em FinOps.md ou clicando no link abaixo:
-
-https://github.com/arferamos/Projeto-M2C/blob/main/FinOps.md
 
 # Autor
 Arlindo Ferreira da Silva Ramos
